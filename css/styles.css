@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: "Open Sans", arial, sans-serif;
+  max-width: 900px;
+  margin: 25px auto;
+  background: #f5f5f5;
+}
+
+header {
+  padding: 8px;
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+a {
+  color: #3db0fd;
+}
+
+hr {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+  margin: 15px 0;
+}
+
+figure {
+  margin: 15px;
+}
+
+.work-img {
+  width: 100%;
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+  transition: all 0.2s ease;
+}
+
+.work-img:hover {
+  box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.75);
+  transition: all 0.2s ease;
+}
+
+.name {
+  padding: 10px 0 0;
+}
+
+.me {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.me-photo {
+  width: 100%;
+}
+
+.welcome {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.3);
+  bottom: 20%;
+}
+
+.works {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+}
+
+.title {
+  width: 100%;
+  margin: 25px 0 20px;
+  font-size: 2em;
+}
+
+.button {
+  padding: 5px 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  line-height: 30px;
+  text-decoration: none;
+  margin: 3px 0;
+  color: #fff;
+  background-color: #b5b5b5;
+  transition: all 0.2s ease;
+}
+
+.view-link {
+  background-color: #3498db;
+}
+
+.view-link:hover {
+  background-color: #3cb0fd;
+}
+
+.source-link {
+  background-color: #00AE63;
+}
+
+.source-link:hover {
+  background-color: #03D77C;
+}
+
+.attributions {
+  font-size: 0.7em;
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    background: url(../img/logo70.png) no-repeat;
+    font-size: 0.8em;
+  }
+
+  .name {
+    padding: 0;
+  }
+
+  .welcome {
+    font-size: 1.5em;
+    width: 80%;
+  }
+
+  .work {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .logo {
+    background: url(../img/logo100.png) no-repeat;
+  }
+
+  .welcome {
+    font-size: 1.7em;
+    width: 70%;
+  }
+
+  .work {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .work {
+    width: 33.3333%;
+  }
+
+  .welcome {
+    font-size: 2.5em;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    font-size: 1.2em;
+  }
+
+  .button {
+    font-size: 0.8em;
+  }
+}
