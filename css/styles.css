@@ -144,16 +144,16 @@ figure {
 
 .work-img {
   width: 100%;
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
   transition: all 0.2s ease;
 }
 
 .work-img:hover {
-  box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
   transition: all 0.2s ease;
 }
 
