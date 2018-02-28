@@ -14,7 +14,14 @@ Working version can be found on https://burk.in/portfolio/
 
 ## Table of Contents
 
-This project uses clean HTML5, CSS.
+This project uses clean HTML5, CSS and JavaScript.
+
+### External Libraries
+
+This project uses following libraries:
+
+1. [jQuery](https://github.com/jquery/jquery)
+2. [TypeIt](https://github.com/alexmacarthur/typeit)
 
 ### Attributions
 
